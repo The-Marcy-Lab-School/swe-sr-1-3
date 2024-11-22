@@ -13,22 +13,17 @@ Add your response here...
 
 ## Prompt 2
 
-The callback that you provide to `forEach`, `filter`, or `map` will be invoked with three values:
-1. `element` - The current element being processed in the array.
-2. `index` — The index of the current element being processed in the array.
-3. `array` — The array the higher order method was called upon.
-
-For example: 
+The callback that you provide to forEach, filter, or map can include up to three parameters.
 
 ```js
-let friends = ['ben', 'carmen', 'itzel', 'zo', 'gonzalo'];
+const arr = ['a', 'b', 'c', 'd'];
 
-friends.forEach((element, index, array) => {
+arr.forEach((param1, param2, param2) => {
 
 });
 ```
 
-What is the purpose of these callback parameters? Fill in the code above with an example of how you might use those additional callback parameters to do something useful.
+What values will be provided to those three parameters? To support your response, provide an example of how you might use all three parameters to do something.
 
 ### Response 2
 
@@ -48,7 +43,7 @@ Add your response here...
 
 ## Prompt 4
 
-Below is a regular expression that can be used to identify emails. Explain how it works!
+Below is a regular expression that can be used to identify emails. Explain how it identifies the three portions of an email!
 
 ```
 /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/
@@ -64,7 +59,7 @@ Add your response here...
 ## Prompt 5
 Imagine you are teaching a brand new programmer a brief lesson about callback functions. Your lesson should have the following components:
 * An explanation of the concept with an analogy ("A callback function is a ... It is like a ...")
-* An example of the syntax for a higher order function that accepts a callback.
+* An example of the syntax for a higher-order function that accepts a callback.
 * An explanation of the syntax using the terms **callback**, **higher order function**
 
 Below, we've provided an outline for your response but feel free to modify it as you see fit.
